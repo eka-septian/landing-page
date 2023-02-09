@@ -1,0 +1,73 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2937;
+  color: white;
+  padding: 16px 10em;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: o;
+  margin: 0;
+  gap: 16px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sectionOne {
+  display: flex;
+  padding: 5em 10em;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2937;
+  color: white;
+  gap: 26px;
+}
+
+.sectionOne .img {
+  background: gray;
+  width: 640px;
+  height: 320px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sectionOne button {
+  background: #3882f6;
+  padding: 5px 19px;
+  color: white;
+  border-radius: 8px;
+}
+
+.sectionOne h1 {
+  padding: 0;
+  margin: 0;
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.sectionOne p, a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
