@@ -29,6 +29,7 @@ body {
 .header .logo {
   font-size: 24px;
   font-weight: bold;
+  color: #f9faf8;
 }
 
 .sectionOne {
@@ -70,4 +71,37 @@ body {
 .sectionOne p, a {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.sectionTwo {
+  text-align: center;
+}
+
+.sectionTwo h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 36px;
+}
+
+.sectionTwo .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  margin-bottom: 72px;
+}
+
+.sectionTwo .item {
+  max-width: 200px;
+}
+
+.sectionTwo .img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
